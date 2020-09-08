@@ -1,5 +1,5 @@
 //forma literal
-function fun1() {}  // poder ou não ter um retorno. Quando não tem retorno explícito, a função retorna undefined implicitamente.
+function fun1() {}  // pode ou não ter um retorno. Quando não tem retorno explícito, a função retorna undefined implicitamente.
 
 //armazenando em uma constante
 const fun2 = function () {} //armazenando a função anônima em uma constante
@@ -20,5 +20,14 @@ console.log(obj.falar())
 function run(fun){
     fun()
 }
+
+//Uma função pode retornar/conter outra função
+function soma(a, b) {
+    return function(c) {
+        console.log(a+b+c)
+    }
+}
+
+soma(1,1)(2);
 
 
