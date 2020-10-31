@@ -9,10 +9,11 @@ que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés d
 function Bhaskara(a, b, c){
     let resultado = [];
     let delta = (b ** 2) - (4*a)*(c)
+    console.log(delta);
 
     if(delta >= 0){
-        let x1 = (- b + (Math.sqrt(delta))) / 2*a;
-        let x2 = (- b - (Math.sqrt(delta))) / 2*a;
+        let x1 = ((-(b )) + (Math.sqrt(delta))) / (2*a);
+        let x2 = ((-(b )) - (Math.sqrt(delta))) / (2*a);
         resultado.push(x1, x2);
         return console.log(resultado);
     } else {
@@ -20,4 +21,4 @@ function Bhaskara(a, b, c){
     }
    
 }
-Bhaskara(2,16,18);
+Bhaskara(-5, 12, -13);
