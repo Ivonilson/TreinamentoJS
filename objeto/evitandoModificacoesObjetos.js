@@ -1,4 +1,4 @@
-/**Object.preventExtensions - Este método não permite que sejam acrescentados novo atributos ao objeto. Permite exclusão, mas não 
+/**Object.preventExtensions - Este método não permite que sejam acrescentados novo atributos ao objeto. Permite exclusão e alteração, mas não 
  * inclusão
  */
 const produto = Object.preventExtensions({
