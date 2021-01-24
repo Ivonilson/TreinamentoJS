@@ -14,9 +14,9 @@ const nums = [1, 2, 3, 4, 5];
  * não é obrigatório passar os três elementos de uma, sendo opcional o uso do parâmetro que se deseja naquele momento.
  */
 
- /*let resultado = nums.map(function(e){
+ let resultado = nums.map(function(e){
      return e * 2;
- });*/
+ });
 /**
  * retornando, conforme a regra, uma novo array com os resultados esperados.
  */
@@ -33,6 +33,6 @@ const nums = [1, 2, 3, 4, 5];
   * Chamando os maps encadeados para aplicar as funções criadas acima. Como um map gera outro array transformando,
   * então é possível as chamadas encadeadas.
   */
- let resultado = nums.map(soma10).map(triplo).map(paraDinheiro);
+ resultado = nums.map(soma10).map(triplo).map(paraDinheiro);
  console.log(resultado);
 
