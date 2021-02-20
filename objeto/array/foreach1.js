@@ -1,7 +1,8 @@
 const aprovados = ['Agatha', 'Aldo', 'Daniel', 'Raquel'];
 
 /**
- * A função forEach espera 02 parâmetros, sendo o segundo o índice do array
+ * Para a função forEach podem ser passados 03 argumentos: a propriedade, o indice e o proprio array.
+ * Qualquer parâmetro a mais será interpretado como indefined na saída.
  * Qualquer nome que for colocado para o segundo parâmetro dentro deste contexto de callback do 
  * foreach vai assumir o valor de índice do array começando em zero.
  */
